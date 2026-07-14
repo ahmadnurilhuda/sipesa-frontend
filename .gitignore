@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Next.js build output and caches
+.next/
+out/
+.turbo/
+
+# Production build output
+build/
+dist/
+
+# Test and coverage output
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript and tooling caches
+*.tsbuildinfo
+next-env.d.ts
+.eslintcache
+
+# Deployment platforms
+.vercel/
+.netlify/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
